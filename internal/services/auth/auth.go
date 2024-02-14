@@ -4,13 +4,13 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"log/slog"
-	"time"
 	"github.com/nurmeden/sso/internal/domain/models"
 	"github.com/nurmeden/sso/internal/lib/jwt"
 	"github.com/nurmeden/sso/internal/lib/logger/sl"
 	"github.com/nurmeden/sso/internal/storage"
 	"golang.org/x/crypto/bcrypt"
+	"log/slog"
+	"time"
 )
 
 var (
